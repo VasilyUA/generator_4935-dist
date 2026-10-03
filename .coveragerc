@@ -1,0 +1,35 @@
+[run]
+data_file = C:/Users/miron/Desktop/generator_4935/.coverage
+source =
+    generator_br_and_report_for_money
+    final_combat_report
+    generator_timesheet
+    report_generator
+    report_generator_old_new_state
+omit =
+    */index.py
+    */process.py
+    */constants_sync.py
+    */stage_folder.py
+    */changes_folder.py
+    */folder_picker.py
+    */user_input.py
+    */output_folder.py
+    */run_mode_prompt.py
+    */tests/*
+
+[report]
+omit =
+    */index.py
+    */process.py
+    */constants_sync.py
+    */stage_folder.py
+    */changes_folder.py
+    */folder_picker.py
+    */user_input.py
+    */output_folder.py
+    */run_mode_prompt.py
+    */tests/*
+
+[html]
+directory = C:/Users/miron/Desktop/generator_4935/htmlcov
