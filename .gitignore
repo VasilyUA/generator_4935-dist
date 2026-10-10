@@ -1,0 +1,36 @@
+env/
+.DS_Store
+
+# Ignore all files in the output directory
+output/*
+output
+.vscode
+
+# Ignore all files in the resources directory
+resources
+*/resources/*
+signal_json
+*/signal_json/*
+venv
+.venv
+*/venv/*
+__pycache__
+.pytest_cache
+*/__pycache__/*
+*/.pytest_cache/*
+
+# Ignore all files in the build directory
+.coverage
+htmlcov
+constants.py.bak
+
+
+# IDE - VSCode
+.vscode
+.vscode/*
+*/.vscode/*
+*/constants.py.bak/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
