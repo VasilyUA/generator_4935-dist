@@ -1,0 +1,25 @@
+{
+  "typeCheckingMode": "basic",
+  "pythonVersion": "3.12",
+  "venvPath": ".",
+  "venv": "venv",
+  "exclude": [
+    "**/venv",
+    "**/__pycache__",
+    "**/.pytest_cache",
+    "**/output",
+    "**/resources",
+    "htmlcov"
+  ],
+  "executionEnvironments": [
+    { "root": "generator_timesheet", "extraPaths": ["generator_timesheet/tests"] },
+    { "root": "generator_br_and_report_for_money", "extraPaths": ["generator_br_and_report_for_money/tests"] },
+    { "root": "generator_bn_and_map", "extraPaths": ["generator_bn_and_map/tests"] },
+    { "root": "generator_duties", "extraPaths": ["generator_duties/tests"] },
+    { "root": "final_combat_report", "extraPaths": ["final_combat_report/tests"] },
+    { "root": "report_generator", "extraPaths": ["report_generator/tests"] },
+    { "root": "report_generator_old_new_state", "extraPaths": ["report_generator_old_new_state/tests"] },
+    { "root": "macros_to_word" },
+    { "root": "scripts" }
+  ]
+}
